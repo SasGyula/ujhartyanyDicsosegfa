@@ -9,3 +9,11 @@ header{
 header img{
     width: 150px;
 }
+.row{
+    padding: 50px;
+}
+.circle{
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 15px;
+}
