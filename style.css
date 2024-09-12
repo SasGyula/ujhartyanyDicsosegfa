@@ -1,0 +1,11 @@
+body{
+    background-image: url(kepek/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+header img{
+    width: 150px;
+}
