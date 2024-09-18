@@ -2,6 +2,7 @@ body{
     background-image: url(kepek/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
 }
 header{
     text-align: center;
@@ -10,10 +11,12 @@ header img{
     width: 150px;
 }
 .row{
-    padding: 50px;
+    padding: 20px;
 }
-.circle{
+
+.circle img{
     border: 1px black solid;
-    border-radius: 20px;
-    padding: 15px;
+    border-radius: 50px;
+    width: 80%;
+    max-width: 100px;
 }
