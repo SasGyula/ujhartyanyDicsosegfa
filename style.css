@@ -19,14 +19,16 @@ header img{
     border-radius: 50px;
     width: 80%;
     max-width: 100px;
+    margin-left: 70px;
 }
 .doboz{
+    margin-left: 400px ;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    height: 200px;
+    height: 400px;
     text-align: center;
     background-color: #e8eae6;
     box-sizing: border-box;
@@ -34,4 +36,8 @@ header img{
     z-index: 100;
     display: none;
     /*to hide popup initially*/
+}
+.kep{
+    width: 150px;
+    height: 150px;
 }
