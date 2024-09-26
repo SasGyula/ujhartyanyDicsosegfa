@@ -10,10 +10,13 @@ header{
 header img{
     width: 150px;
 }
-.row{
+.felulet{
+    padding:50px;
+
+}
+.felulet div{
     padding: 20px;
 }
-
 .circle img{
     border: 1px black solid;
     border-radius: 50px;
@@ -22,6 +25,7 @@ header img{
     margin-left: 70px;
 }
 .doboz{
+    border-radius: 10px;
     margin-left: 400px ;
     position: absolute;
     top: 50%;

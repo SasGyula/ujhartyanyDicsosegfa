@@ -20,7 +20,10 @@ export class Kartya{
     }
     #megjelenit(){
         let txt = 
-        `<div class="col-md-2 circle"><img src="${this.#lista[this.#id].kep}" alt=""></div>`
+
+        `
+        <div class="col-md-4 circle"><img src="${this.#lista[this.#id].kep}" alt=""></div>
+        `
         this.#szuloElem.append(txt)
     }
     #kattintasEsemeny(esemenynev){
